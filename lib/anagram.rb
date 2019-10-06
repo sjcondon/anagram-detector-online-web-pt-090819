@@ -1,6 +1,7 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :diaper
-  diaper = []
-  diaper = Anagram.new
+  attr_accessor :word
+  
+  def initialize(word)
+    @word = word
 end

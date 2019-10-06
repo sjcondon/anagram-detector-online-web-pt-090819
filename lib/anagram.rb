@@ -11,6 +11,8 @@ end
       array.each do |anagrams|
         if anagrams.split("") === @word.split("").sort
           arr << anagrams
-        
-end
+        end
+      end
+      array
+  end
 end

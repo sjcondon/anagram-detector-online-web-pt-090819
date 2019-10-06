@@ -8,7 +8,7 @@ end
   
   def match(array) #iterate over the array
     arr = []
-      array.each do |anagrams| #figure out if the are composed of the same letter
+      array.each do |anagrams| #figure out if the are composed of the same letter. Going through each anagrams
         if anagrams.split("").sort === @word.split("").sort #splitting up the anagrams and then sorting them. 
                                                             #next checking to see if the anagrams are equal to the sorted words
           arr << anagrams #shovel anagrams into the empty array

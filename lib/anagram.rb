@@ -9,7 +9,7 @@ end
   def match(array)
     arr = []
       array.each do |anagrams|
-        if anagrams
+        if anagrams.split("") ===
         
 end
 end

@@ -9,7 +9,7 @@ end
   def match(array)
     arr = []
       array.each do |anagrams|
-        
+        if anagrams
         
 end
 end

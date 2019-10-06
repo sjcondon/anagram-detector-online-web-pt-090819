@@ -13,6 +13,6 @@ end
           arr << anagrams
         end
       end
-      array
+      arr
   end
 end

@@ -10,7 +10,7 @@ end
     arr = []
       array.each do |anagrams|
         if anagrams.split("") === @word.split("").sort
-          array << anagrams
+          arr << anagrams
         
 end
 end

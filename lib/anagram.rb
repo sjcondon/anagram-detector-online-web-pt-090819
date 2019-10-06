@@ -1,5 +1,5 @@
 # Your code goes here!
 class Anagram
-  attr_accessible :diaper
+  attr_accessor :diaper
   diaper = []
 end

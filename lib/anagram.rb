@@ -7,5 +7,6 @@ class Anagram
 end
   def match(array)
     arr = []
-      a
+      array.each do |i|
+        
 end
